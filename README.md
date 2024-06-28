@@ -12,14 +12,14 @@ The NYC Taxi and Limousine Commission data come from NYC.gov. The data consisted
 ![image](https://github.com/ut-si-ch/Predicting-Taxi-Gratuities-in-New-York-City/assets/83574378/a0ada1e4-469d-434b-9a9d-e0ca455cc59c)
 
 
-In connection to this, a feature was engineered to represent if a ride was taken during rush hour or not. Multiple redundant columns were dropped and r witeformatted into the proper data type.
+In connection to this, a feature was engineered to represent if a ride was taken during rush hour or not. Multiple redundant columns were dropped and were formatted into the proper data type.
 
 
 # Modelling and Evaluation
-A random forest model comprising 100 decision trees were used to determine feature importance in who would tip generously or not. The below plot shows that trip duration, distance, and the cost of a fare were the TOP 3 most important factors in determining a generous tipper from a non-generous one. The overall model performed with 86% accuracy and 72% precision.
+A random forest model comprising 100 decision trees were used to determine feature importance in who would tip generously or not. The below plot shows that trip duration, distance, and the cost of a fare were the TOP 3 most important factors in determining a generous tipper from a non-generous one. The overall model performed with 64.5% accuracy and 36.5% precision.
 ![image](https://github.com/ut-si-ch/Predicting-Taxi-Gratuities-in-New-York-City/assets/83574378/2159a8b4-daab-4e73-ba36-922ed62ad1a9)
-
+This is not a great model, but depending on how it's used it could still be useful. If the objective is only to help give taxi drivers a better idea of whether someone will leave a good tip, then it could be useful. It may be worthwhile to test it with a select group of taxi drivers to get feedback.
 
 
 # Conclusion
-This model can benefit Taxi drivers in knowing if they will be tipped generously or not; however, running a parametric model to determine how much each variable will influence the actual priceof the tip. In the future, adding more information on a rider's past tipping behaviour in helping the stakeholder address their business problem.
+This model can benefit Taxi drivers in knowing if they will be tipped generously or not; however, running a parametric model to determine how much each variable will influence the actual price of the tip. In the future, adding more information on a rider's past tipping behaviour in helping the stakeholder address their business problem.
